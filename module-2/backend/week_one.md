@@ -7,6 +7,12 @@ Note: When you're done, submit a PR.
 ### Week 1 Questions
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
+  GET: Retrieve resource 
+  POST: Up
+  PUT: Update entire resource 
+  PATCH: update partial resource 
+  DELETE: destroy resource 
+  
 2. What is Sinatra?
 4. What is MVC?
 5. Why do we follow conventions when creating our actions/path names in our Sinatra routes?
@@ -24,6 +30,11 @@ Note: When you're done, submit a PR.
 10. Why do I need a development AND test database?
 11. What is CRUD and why is it important?
 12. What does HTTP stand for? 
+  H: Hyper
+  T:Text
+  T: Transfer
+  P: Protcol
+  
 13. What are the two ways to interpolate Ruby in an ERB view template? What's the difference between these two ways?
 14. What's an ORM?
 15. What's the most commonly used ORM in ruby (Sinatra & Rails)?
