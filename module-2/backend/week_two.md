@@ -24,9 +24,13 @@ What are some methods you can call on `Team`? If these methods aren't defined in
   Team.validates
 
 3. Assume that in your database, a team has the following attributes: "id", "name", owner_id". How would you find the name of a team with an id of 4? Assuming your class only included the code from question 2, how could you find the owner of the same team?
-  1. Team.find(4)
+  <!-- 1. Team.find(4)
   2. id = Team.find(4).owner_id
-    Owner.find(id).name
+    Owner.find(id).name -->
+    team = Team.find(4)
+    team.name
+    o = Owner.find_by(t.owner_id)
+    o.name
 
 4. Assume that you added a line to your `Team` class as follows:
 
@@ -38,6 +42,8 @@ end
 
 Now how would you find the owner of the team with an id of 4?
   Team.find(4).owner.name
+
+
 
 5. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.
 
@@ -64,9 +70,12 @@ Now how would you find the owner of the team with an id of 4?
   A foreign key provides a reference to a primary key in order to access the information in that table associated with that foreign key.
 
 8. What are the parts of an HTTP response?
-  GET: specifies vverb, path and protocol
+  <!-- GET: specifies verb, path and protocol
   Host: where the request is sent
-  Accept: specifies format for client to get
+  Accept: specifies format for client to get -->
+  Status
+  Headers
+  Body - HTML code you requested
 
 ### Optional Questions
 
