@@ -1,8 +1,6 @@
 ### Week 5 Questions
 
-Re-pull from this respository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON!). 
-
-Note: When you're done, submit a PR. 
+Re-pull from this repository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON!).
 
 ### Week 5 Questions
 1. How do we make flash messages display on a page?
@@ -17,7 +15,7 @@ Note: When you're done, submit a PR.
 
 6. What do each of the following tags do?
 
-```ruby 
+```ruby
 <%= stylesheet_link_tag "application" %>
 <%= javascript_include_tag "application" %>
 <%= image_tag "rails.png" %>
@@ -31,7 +29,7 @@ Note: When you're done, submit a PR.
 
 10. Given the following object, how would we create a scope for all users who are active?
 
-```ruby 
+```ruby
 User.create(name: "Happy", active: true)
 ```
 
@@ -48,7 +46,7 @@ User.create(name: "Happy", active: true)
   12a. How would you add item with id of 48 with a quantity of 4?  
   12b. How would you increase the quantity of item 29?  
   12c. How would you find out how many items your user is thinking about purchasing?   
-  
+
 13. What is polymorphism? How does it relate to duck-typing? What are two ways you use this in everyday Rails applications?  
 14. How would you clean the string "(630) 854-5483" to "630.854.5483"?  
 
@@ -57,7 +55,7 @@ User.create(name: "Happy", active: true)
 Choose One:
 * I was able to answer every question without relying on outside resources
 * I was able to answer most questions independently, but utilized outside resources for a few
-* I was able to answer a few questions independently, but relied heavily on outside resources 
+* I was able to answer a few questions independently, but relied heavily on outside resources
 
 Choose One:
 * I feel confident about the content presented this week
